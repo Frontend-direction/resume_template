@@ -1,0 +1,21 @@
+/*JOB*/
+.job__icon {
+  width: 18px;
+}
+/* CONTACTS*/
+.contacts li a.twitter:hover {
+  color: #00aff0;
+}
+
+.contacts li a.instagram:hover {
+  color: #517fa4;
+}
+
+/* TIMELINE*/
+.timeline__list li {
+  margin-bottom: .5em;
+}
+
+.labels_container {
+  height: 30px;
+}
