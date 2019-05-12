@@ -10,3 +10,12 @@
 .contacts li a.instagram:hover {
   color: #517fa4;
 }
+
+/* TIMELINE*/
+.experience__timeline li {
+  margin-bottom: .5em;
+}
+
+.labels_container {
+  height: 30px;
+}

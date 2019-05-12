@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
     <link rel="stylesheet" href="./index.css">
   </head>
@@ -22,7 +24,7 @@
                   <div class="sixteen wide column">
                     <h1 class="name">Donald Trump</h1>
                     <div class="job">President of United State of America
-                        <img src="assets/images/flag.svg" alt="USA flag">
+                        <img class="job__icon" src="assets/images/flag.svg" alt="USA flag">
                     </div>
                     <ul class="contacts">
                       <li>
@@ -49,8 +51,7 @@
                       </li>
                       <li>
                         <a href="https://www.instagram.com/realDonaldTrump/" rel="author" class="instagram">
-                          <svg class="icon" viewBox="0 0 1536 1536" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1024 768q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zM768 138q-7 0-76.5-.5t-105.5 0-96.5 3-103 10T315 169q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103T169 1221q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103T1367 315q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124T5 1085q-5-88-5-317t5-317q10-208 124-322T451 5q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"/></svg>
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h362c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm-180 390c-74.441406 0-135-60.558594-135-135s60.558594-135 135-135 135 60.558594 135 135-60.558594 135-135 135zm150-240c-24.8125 0-45-20.1875-45-45s20.1875-45 45-45 45 20.1875 45 45-20.1875 45-45 45zm0 0"/><path d="m407 90c-8.277344 0-15 6.722656-15 15s6.722656 15 15 15 15-6.722656 15-15-6.722656-15-15-15zm0 0"/><path d="m257 150c-57.890625 0-105 47.109375-105 105s47.109375 105 105 105 105-47.109375 105-105-47.109375-105-105-105zm0 0"/></svg>
                           <span>realDonaldTrump</span>
                         </a>
                       </li>
@@ -75,39 +76,88 @@
             </div>
             <div class="row">
               <div class="ten wide column">
-                <h3>EXPERIENCE</h3>
-                <ul>
+                <h3 class="timeline">EXPERIENCE</h3>
+                <ul class="experience__timeline">
                   <li>
-                    <P><small>2017</small></P>
-                    <p>Became 45th president of the United States</p>
+                    <P><em><strong>Future</strong></em></P>
+                    <p>Nobody knows I'm unpredictable🌋</p>
                   </li>
                   <li>
-                    <P><small>2016</small></P>
-                    <p>Won election race with 77 votes more than Clinton, yippe-kee-yay!</p>
+                    <P><em><strong>2017</strong></em></P>
+                    <p>Became <strong><a href="https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_age">45th president</a></strong> of the United States</p>
                   </li>
                   <li>
-                    <P><small>2015</small></P>
+                    <P><em><strong>2016</strong></em></P>
+                    <p>Won election race with 77 votes more than Clinton, yippe-kee-yay!🎉</p>
+                    <ul style="border-top: 1px dotted #aaaaaa; margin-top: 0.25em; padding-top: 0.25em;">
+                      <li class="details">
+                        <input type="checkbox" id="other">
+                        <label for="other" class="summary"><h6>My programm</h6></label>
+                        <div>
+                          <ul>
+                            <li>Make America great again!</li>
+                            <li>Make America great again! Oh it was my first point, nevermind</li>
+                            <li>Build a wall, night king is comming </li>
+                            <li>My whole life has been heat. I like heat, in a certain way. Make our planet a solarium!</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <P><em><strong>2015</strong></em></P>
                     <p> Became the most important Republican nominating for presidential election run</p>
+                    <p>Why they like me</p>
+                    <div class="labels labels_container">
+                        <a rel="external" class="label" href="https://www.quora.com/Who-gives-a-haircut-to-Donald-Trump">my haircut</a>
+                        <a rel="external" class="label" href="https://me.me/i/knock-knock-not-you-whos-there-president-trump-loves-knock-7754383">sense of humor</a>
+                        <a rel="external" class="label" href="https://deadline.com/2019/01/game-of-thrones-trump-meme-triggers-show-fans-into-spluttering-outrage-1202529564/">just wall</a>
+                        <a rel="external" class="label" href="https://www.thoughtco.com/donald-trump-business-bankruptcies-4152019">good at finance</a>
+                    </div>
                   </li>
                   <li>
-                    <P><small>2009</small></P>
-                    <p>Changed my mind and became Republican again</p>
+                    <P><em><strong>2009</strong></em></P>
+                    <p>Changed his mind and became Republican again</p>
                   </li>
                   <li>
-                    <P><small>2005</small></P>
-                    <p>Started Trump University with Michael Sexton and Jonathan Spitalny: no grades, certificates and other bureaucracy, but program offered courses in real estate, asset management entrepreneurship, and wealth creation. 98% students gave positive reviews while studying, however some of these ungrateful gringos filed lawsuits against Trump University after the course. I had to pay $25 million to settle that...</p>
+                    <P><em><strong>2005</strong></em></P>
+                    <p>Started Trump University with Michael Sexton and Jonathan Spitalny: no grades, certificates and other bureaucracy, but program offered courses in real estate, asset management entrepreneurship, and wealth creation. 98% students gave positive reviews while studying, however some of these ungrateful gringos filed lawsuits against Trump University after the course. He had to pay $25 million to settle that...💸</p>
                   </li>
                   <li>
-                    <P><small>2002</small></P>
-                    <p>Acquired the former Hotel Delmonico, which was renovated and reopened in 2004 as the Trump Park Avenue. I sure do like my surname!</p>
+                    <P><em><strong>2002</strong></em></P>
+                    <p>Acquired the former Hotel Delmonico, which was renovated and reopened in 2004 as the Trump Park Avenue. He sure does like my surname!</p>
                   </li>
                   <li>
-                    <P><small>2001</small></P>
+                    <P><em><strong>2001</strong></em></P>
                     <p>Completed Trump World Tower and joined the Democratic Party</p>
                   </li>
                   <li>
-                    <P><small> 1999</small></P>
-                    <p>Started buying golf courses. They are very cheap, I have 18 of them now in USA and abroad! Also switched to the Reform Party that year</p>
+                    <P><em><strong>1999</strong></em></P>
+                    <p>Started buying golf courses. They are very cheap, He has 18 of them now in USA and abroad! Also switched to the Reform Party that year</p>
+                  </li>
+                  <li>
+                    <P><em><strong>1989 ― 1992</strong></em></P>
+                    <p>Ran a second hand airline called Trump Shuttle. What a waste of money, I had to sell it, now it is American Airlines Shuttle, btw</p>
+                  </li>
+                  <li>
+                    <P><em><strong>1989, 1990</strong></em></P>
+                    <p>Learned about Tour de France and decided to hold my very own Tour de Trump. Is America not great enough for that cycling competition?😂</p>
+                  </li>
+                  <li>
+                    <P><em><strong>1980</strong></em></P>
+                    <p>Started developing the Trump Tower skyscraper in Manhattan, I payed a crew of undocumented Polish workers to demolish the historic Bonwit Teller store, including art deco features. All this to make architectural critic Paul Goldberger say in 1983 that the tower's atrium is "the most pleasant interior public space to be completed in New York in some years". At the same time I also started a repair job on the Wollman Rink in Central Park and completed the work in three months for $1.95 million, which was $775,000 less than the initial budget!</p>
+                  </li>
+                  <li>
+                    <P><em><strong>1978</strong></em></P>
+                    <p>Purchased a 50 percent stake in the derelict Commodore Hotel and turned it into the Grand Hyatt Hotel in 2 years of remodeling</p>
+                  </li>
+                  <li>
+                    <P><em><strong>1971</strong></em></P>
+                    <p>Was promoted to president of the company and renamed it The Trump Organization</p>
+                  </li>
+                  <li>
+                    <P><em><strong>1968</strong></em></P>
+                    <p>Began my career at my father's real estate development company, Elizabeth Trump & Son</p>
                   </li>
                 </ul>
                 <h3 class="timeline">Personal life</h3>
