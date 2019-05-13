@@ -19,3 +19,15 @@
 .labels_container {
   height: 30px;
 }
+
+/*FOOTER*/
+.footer {
+  flex-direction: column; 
+}
+
+.footer__wall {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
